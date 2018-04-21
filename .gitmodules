@@ -1,0 +1,3 @@
+[submodule "gameplay3d"]
+	path = gameplay3d
+	url = https://github.com/gameplay3d/GamePlay.git
