@@ -33,6 +33,9 @@ protected:
      * @see Game::initialize
      */
     void initialize();
+    void initializeCamera();
+    bool initializeModel(Node* node);
+    void initializeMaterial(Scene* scene, Node* node, Material* material);
 
     /**
      * @see Game::finalize
@@ -57,6 +60,9 @@ private:
     bool drawScene(Node* node);
 
     Scene* _scene;
+    Material* _materialTileDefault;
+    Material* _materialTileP1;
+    Material* _materialTileP2;
     bool _wireframe;
 };
 
