@@ -1,0 +1,27 @@
+{
+  "name": "flipm-tools",
+  "version": "1.0.0",
+  "description": "Tools for developing Flip'M",
+  "main": "flipm-tools.js",
+  "dependencies": {
+    "balanced-match": "^1.0.0",
+    "colors": "^1.2.1",
+    "commander": "^2.15.1",
+    "pretty-data": "^0.40.0",
+    "watch": "^1.0.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clubycoder/FlipM.git"
+  },
+  "author": "Chris Luby",
+  "bugs": {
+    "url": "https://github.com/clubycoder/FlipM/issues"
+  },
+  "homepage": "https://github.com/clubycoder/FlipM#readme"
+}
